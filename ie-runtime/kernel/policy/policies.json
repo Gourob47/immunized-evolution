@@ -1,0 +1,47 @@
+{
+  "version": "1.1.0",
+  "roles": {
+    "coding-agent": {
+      "allowed_actions": [
+        "tool_call",
+        "memory_write",
+        "code_exec"
+      ],
+      "allowed_targets": [
+        "workspace",
+        "search",
+        "read_file",
+        "write_memory",
+        "python_exec",
+        "memory_store"
+      ],
+      "sandboxed_targets": [
+        "python_exec",
+        "network_exec"
+      ],
+      "blocked_actions": [
+        "policy_change"
+      ],
+      "blocked_targets": [
+        "system_policy",
+        "capability_registry",
+        "audit_log"
+      ]
+    }
+  },
+  "risk_rules": {
+    "low": ["allow"],
+    "medium": ["allow", "sandbox"],
+    "high": ["sandbox", "escalate"],
+    "critical": ["deny", "escalate"]
+  },
+  "memory_policy": {
+    "external_without_trusted_provenance": "quarantine",
+    "requires_provenance_fields": [
+      "source",
+      "provenance",
+      "created_by",
+      "timestamp"
+    ]
+  }
+}

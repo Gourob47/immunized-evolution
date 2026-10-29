@@ -1,0 +1,2 @@
+# Stdlib-only runtime. Tests need:
+pytest>=7.0

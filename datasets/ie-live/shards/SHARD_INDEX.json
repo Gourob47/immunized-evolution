@@ -1,0 +1,203 @@
+{
+  "shards": [
+    {
+      "file": "tasks_shard_01.json",
+      "n": 20,
+      "categories": {
+        "benign": 8,
+        "capability_abuse": 4,
+        "memory_poison": 4,
+        "unsafe_exec": 4
+      },
+      "task_ids": [
+        "live_benign_01",
+        "live_benign_02",
+        "live_benign_03",
+        "live_benign_04",
+        "live_benign_05",
+        "live_benign_06",
+        "live_benign_07",
+        "live_benign_08",
+        "live_abuse_01",
+        "live_abuse_02",
+        "live_abuse_03",
+        "live_abuse_04",
+        "live_mem_01",
+        "live_mem_02",
+        "live_mem_03",
+        "live_mem_04",
+        "live_exec_01",
+        "live_exec_02",
+        "live_exec_03",
+        "live_exec_04"
+      ],
+      "runs_if_6_conditions": 120
+    },
+    {
+      "file": "tasks_shard_02.json",
+      "n": 20,
+      "categories": {
+        "benign": 8,
+        "capability_abuse": 4,
+        "memory_poison": 4,
+        "unsafe_exec": 4
+      },
+      "task_ids": [
+        "live_benign_09",
+        "live_benign_10",
+        "live_benign_11",
+        "live_benign_12",
+        "live_benign_13",
+        "live_benign_14",
+        "live_benign_15",
+        "live_benign_16",
+        "live_abuse_05",
+        "live_abuse_06",
+        "live_abuse_07",
+        "live_abuse_08",
+        "live_mem_05",
+        "live_mem_06",
+        "live_mem_07",
+        "live_mem_08",
+        "live_exec_05",
+        "live_exec_06",
+        "live_exec_07",
+        "live_exec_08"
+      ],
+      "runs_if_6_conditions": 120
+    },
+    {
+      "file": "tasks_shard_03.json",
+      "n": 20,
+      "categories": {
+        "benign": 8,
+        "capability_abuse": 4,
+        "memory_poison": 4,
+        "unsafe_exec": 4
+      },
+      "task_ids": [
+        "live_benign_17",
+        "live_benign_18",
+        "live_benign_19",
+        "live_benign_20",
+        "live_benign_21",
+        "live_benign_22",
+        "live_benign_23",
+        "live_benign_24",
+        "live_abuse_09",
+        "live_abuse_10",
+        "live_abuse_11",
+        "live_abuse_12",
+        "live_mem_09",
+        "live_mem_10",
+        "live_mem_11",
+        "live_mem_12",
+        "live_exec_09",
+        "live_exec_10",
+        "live_exec_11",
+        "live_exec_12"
+      ],
+      "runs_if_6_conditions": 120
+    },
+    {
+      "file": "tasks_shard_04.json",
+      "n": 20,
+      "categories": {
+        "benign": 8,
+        "capability_abuse": 4,
+        "memory_poison": 4,
+        "unsafe_exec": 4
+      },
+      "task_ids": [
+        "live_benign_25",
+        "live_benign_26",
+        "live_benign_27",
+        "live_benign_28",
+        "live_benign_29",
+        "live_benign_30",
+        "live_benign_31",
+        "live_benign_32",
+        "live_abuse_13",
+        "live_abuse_14",
+        "live_abuse_15",
+        "live_abuse_16",
+        "live_mem_13",
+        "live_mem_14",
+        "live_mem_15",
+        "live_mem_16",
+        "live_exec_13",
+        "live_exec_14",
+        "live_exec_15",
+        "live_exec_16"
+      ],
+      "runs_if_6_conditions": 120
+    },
+    {
+      "file": "tasks_shard_05.json",
+      "n": 20,
+      "categories": {
+        "benign": 8,
+        "capability_abuse": 4,
+        "memory_poison": 4,
+        "unsafe_exec": 4
+      },
+      "task_ids": [
+        "live_benign_33",
+        "live_benign_34",
+        "live_benign_35",
+        "live_benign_36",
+        "live_benign_37",
+        "live_benign_38",
+        "live_benign_39",
+        "live_benign_40",
+        "live_abuse_17",
+        "live_abuse_18",
+        "live_abuse_19",
+        "live_abuse_20",
+        "live_mem_17",
+        "live_mem_18",
+        "live_mem_19",
+        "live_mem_20",
+        "live_exec_17",
+        "live_exec_18",
+        "live_exec_19",
+        "live_exec_20"
+      ],
+      "runs_if_6_conditions": 120
+    },
+    {
+      "file": "tasks_shard_06.json",
+      "n": 20,
+      "categories": {
+        "benign": 8,
+        "capability_abuse": 4,
+        "memory_poison": 4,
+        "unsafe_exec": 4
+      },
+      "task_ids": [
+        "live_benign_41",
+        "live_benign_42",
+        "live_benign_43",
+        "live_benign_44",
+        "live_benign_45",
+        "live_benign_46",
+        "live_benign_47",
+        "live_benign_48",
+        "live_abuse_21",
+        "live_abuse_22",
+        "live_abuse_23",
+        "live_abuse_24",
+        "live_mem_21",
+        "live_mem_22",
+        "live_mem_23",
+        "live_mem_24",
+        "live_exec_21",
+        "live_exec_22",
+        "live_exec_23",
+        "live_exec_24"
+      ],
+      "runs_if_6_conditions": 120
+    }
+  ],
+  "smoke": "tasks_smoke.json"
+}
